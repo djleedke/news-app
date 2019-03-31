@@ -1,1 +1,54 @@
-<a href="/about">WOOOOP</a>
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div id="article-list" class="container">
+        <div class="card-columns">
+            <div class="card bg-light">
+                <a href="https://www.foxnews.com/politics/biden-denies-acting-inappropriately-with-women-but-vows-to-listen-respectfully" target="_blank">
+                    <img class="card-img-top" src="https://media2.foxnews.com/BrightCove/694940094001/2019/03/30/694940094001_6020414725001_6020409003001-vs.jpg">
+                </a>
+                <div class="card-body text-center">
+                    <p class="card-text">Biden denies acting 'inappropriately' with women, but vows to 'listen respectfully'</p>
+                    <p class="card-text"><small class="text-muted">Fox News</small></p>
+                </div>
+            </div>     
+            <div class="card bg-light">
+                <img class="card-img-top" src="https://static.foxnews.com/foxnews.com/content/uploads/2019/03/AP19088065658123.jpg">
+                <div class="card-body text-center">
+                    <p class="card-text">Trump moves to cut aid to Central America, amid caravans and flood of refugees</p>
+                    <p class="card-text"><small class="text-muted">Fox News</small></p>
+                </div>
+            </div>
+            <div class="card bg-light">
+                <img class="card-img-top" src="https://thehill.com/sites/default/files/mulvaneymick_060818getty.jpg">
+                <div class="card-body text-center">
+                    <p class="card-text">Mulvaney: Mueller report 'not designed' to exonerate Trump</p>
+                    <p class="card-text"><small class="text-muted">The Hill</small></p>
+                </div>
+            </div>
+            <div class="card bg-light">
+                <img class="card-img-top" src="https://cdn.vox-cdn.com/thumbor/oDEb9ZW9F_gGTs5K4z52n1dqMQw=/0x627:4806x3143/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15997752/usa_today_12448131.jpg">
+                <div class="card-body text-center">
+                    <p class="card-text">Justin Gaethje has eyes on Khabib Nurmagomedov after UFC Philadelphia KO: ‘I’m the toughest matchup for him’</p>
+                    <p class="card-text"><small class="text-muted">MMA Fighting</small></p>
+                </div>
+            </div>
+            <div class="card bg-light">
+                <img class="card-img-top" src="https://media4.s-nbcnews.com/j/newscms/2019_13/2803501/190329-donald-trump-ew-1207p_e6c1ebc6806392e5e1043a9c8c3ff69f.nbcnews-fp-1200-630.jpg">
+                <div class="card-body text-center">
+                    <p class="card-text">"Most Americans don't think Trump is in the clear yet on Russia, new poll finds"</p>
+                    <p class="card-text"><small class="text-muted">NBC News</small></p>
+                </div>
+            </div>
+            <div class="card bg-light">
+                <img class="card-img-top" src="https://ichef.bbci.co.uk/news/1024/branded_news/09A0/production/_106246420_053282494-1.jpg">
+                <div class="card-body text-center">
+                    <p class="card-text">"Highlights of the pontiff's weekend visit to the overwhelmingly Muslim country."</p>
+                    <p class="card-text"><small class="text-muted">BBC</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
