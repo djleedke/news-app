@@ -13,11 +13,14 @@
         <title>News App</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
             <div class="container">
                 <a class="navbar-brand" href="#">News App</a>
             </div>
         </nav>
         {% block content %}{% endblock %}
+        <div class="footer">
+            <p>Powered by <a href="https://newsapi.org/" target="_blank">NewsAPI.org</a></p>
+        </div>
     </body>
 </html>

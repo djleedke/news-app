@@ -1,5 +1,13 @@
 
+/* ---------- Navbar ---------- */
+
+nav {
+
+}
+
+/* ---------- Body ---------- */
 body {
+    padding-top:50px;
     background-color:lightgrey;
 }
 
@@ -11,6 +19,34 @@ body {
     text-align: left;
 }
 
+/* ---------- Footer ---------- */
+.footer {
+    position:static;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    background-color:#212529;
+    text-align:center;
+    color:#fff;
+}
+
+.footer p {
+    margin:0px;
+    padding:5px;
+    font-size:12px;
+}
+
+.footer a {
+    text-decoration:none;
+    color:grey;
+}
+
+.footer a:hover {
+    color:lightgrey;
+}
+
+/* ---------- Screen Size ---------- */
 @media only screen and (min-width:1200px){
     .card-columns {
         column-count: 4;
