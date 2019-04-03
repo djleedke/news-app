@@ -1,5 +1,6 @@
-import urllib.request, json, time, datetime,config
+import urllib.request, json, time, datetime, config
 
+print("We are catching the news!")
 
 while True:
 
