@@ -1,6 +1,6 @@
 
 from flask import render_template
-from application import app
+from application import app, news_catcher
 import json, os
 
 
@@ -9,9 +9,10 @@ import json, os
 def index():
     return render_template('index.html', data=read_news())
 
-@app.route('/about')
-def about():
-    return 'About Page!'
+@app.route('/news-catch')
+def news-catch():
+    news_catcher.catch_news()
+    return "News Caught!"
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
