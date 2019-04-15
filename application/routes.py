@@ -13,6 +13,7 @@ def index():
 
 @app.route('/update')
 def update_news():
+    global data
     data = news_catcher.catch_news()
     return "Success"
 
